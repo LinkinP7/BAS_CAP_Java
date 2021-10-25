@@ -1,0 +1,5 @@
+backends:
+  - path-prefix: app1
+    description: Port [ + 8080 + ]
+    url: http://127.0.0.1:8080
+    rewrite-host: true

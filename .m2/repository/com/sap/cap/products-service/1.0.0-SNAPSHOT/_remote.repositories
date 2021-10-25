@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 25 00:20:05 UTC 2021
+products-service-1.0.0-SNAPSHOT.pom>=
+products-service-1.0.0-SNAPSHOT.jar>=
+products-service-1.0.0-SNAPSHOT-exec.jar>=

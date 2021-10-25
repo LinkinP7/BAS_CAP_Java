@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.sap.cloud.instancemanager</groupId>
+        <artifactId>client-parent</artifactId>
+        <version>1.17.2</version>
+        <relativePath>../client-parent</relativePath>
+    </parent>
+    <artifactId>client-api</artifactId>
+    <name>Instance Manager Client API</name>
+    <description>Client Library API for Instance Manager</description>
+    <url>http://www.sap.com</url>
+    <scm>
+        <connection />
+        <url />
+        <developerConnection />
+    </scm>
+    <developers>
+        <developer>
+            <name>SAP SE</name>
+            <organization>SAP SE</organization>
+            <organizationUrl>http://www.sap.com</organizationUrl>
+            <email />
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>SAP DEVELOPER LICENSE AGREEMENT</name>
+            <url>https://tools.hana.ondemand.com/developer-license-3_1.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.easymock</groupId>
+            <artifactId>easymock</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

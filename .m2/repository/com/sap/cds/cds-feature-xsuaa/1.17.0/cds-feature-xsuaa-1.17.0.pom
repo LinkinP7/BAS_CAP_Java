@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sap.cds</groupId>
+  <artifactId>cds-feature-xsuaa</artifactId>
+  <version>1.17.0</version>
+  <name>XSUAA feature</name>
+  <description>API implementation to handle oauth2 tokens (JWT) in XSUAA format</description>
+  <url>https://cap.cloud.sap/docs/java</url>
+  <licenses>
+    <license>
+      <name>SAP DEVELOPER LICENSE AGREEMENT</name>
+      <url>https://tools.hana.ondemand.com/developer-license-3_1.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>SAP SE</name>
+      <organization>SAP SE</organization>
+      <organizationUrl>http://www.sap.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection></connection>
+    <url></url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.sap.cds</groupId>
+      <artifactId>cds-feature-api</artifactId>
+      <version>1.17.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.cds</groupId>
+      <artifactId>cds-services-utils</artifactId>
+      <version>1.17.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.30</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.12.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

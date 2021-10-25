@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.sap.cloud.sdk</groupId>
+		<artifactId>sdk-parent</artifactId>
+		<version>3.38.0</version>
+	</parent>
+	<groupId>com.sap.cloud.sdk.quality</groupId>
+	<artifactId>quality-parent</artifactId>
+	<packaging>pom</packaging>
+	<name>Quality - Parent POM</name>
+	<description>Parent POM for quality modules.</description>
+	<url>https://sap.github.io/cloud-sdk/docs/java/getting-started</url>
+	<organization>
+		<name>SAP SE</name>
+		<url>https://www.sap.com</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>SAP DEVELOPER LICENSE AGREEMENT</name>
+			<url>https://tools.hana.ondemand.com/developer-license-3_1.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>SAP</name>
+			<email>cloudsdk@sap.com</email>
+			<organization>SAP SE</organization>
+			<organizationUrl>https://www.sap.com</organizationUrl>
+		</developer>
+	</developers>
+	<modules>
+		<module>common</module>
+		<module>odata-querylistener</module>
+		<module>rfc-querylistener</module>
+		<module>httpclient-listener</module>
+		<module>listeners-all</module>
+		<module>pmd-rules</module>
+	</modules>
+	<scm>
+		<connection />
+		<url />
+	</scm>
+	<properties>
+		<project.rootdir>${project.basedir}/../../</project.rootdir>
+	</properties>
+</project>

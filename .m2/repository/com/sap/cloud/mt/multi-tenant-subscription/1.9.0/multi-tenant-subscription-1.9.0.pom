@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ © 2020 SAP SE or an SAP affiliate company. All rights reserved.
+  -->
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sap.cloud.mt</groupId>
+  <artifactId>multi-tenant-subscription</artifactId>
+  <version>1.9.0</version>
+  <name>Multi Tenant Subscription</name>
+  <description>Spring Boot Enablement Parent</description>
+  <url>http://www.sap.com</url>
+  <organization>
+    <name>SAP</name>
+  </organization>
+  <licenses>
+    <license>
+      <name>SAP DEVELOPER LICENSE AGREEMENT</name>
+      <url>https://tools.hana.ondemand.com/developer-license-3_1.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>SAP SE</name>
+      <organization>SAP SE</organization>
+      <organizationUrl>http://www.sap.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection></connection>
+    <url></url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.30</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.11.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.11.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.cloud.instancemanager</groupId>
+      <artifactId>client</artifactId>
+      <version>1.17.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.liquibase</groupId>
+      <artifactId>liquibase-core</artifactId>
+      <version>3.8.9</version>
+      <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>logback-classic</artifactId>
+          <groupId>ch.qos.logback</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.cloud.security.xsuaa</groupId>
+      <artifactId>token-client</artifactId>
+      <version>2.8.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.cloud.sdk.cloudplatform</groupId>
+      <artifactId>cloudplatform-connectivity</artifactId>
+      <version>3.38.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,98 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.sap.cloud.instancemanager</groupId>
+        <artifactId>client-parent</artifactId>
+        <version>1.17.2</version>
+        <relativePath>../client-parent</relativePath>
+    </parent>
+    <artifactId>client</artifactId>
+    <name>Instance Manager Client</name>
+    <description>Client Library for Instance Manager</description>
+    <url>http://www.sap.com</url>
+    <scm>
+        <connection />
+        <url />
+        <developerConnection />
+    </scm>
+    <developers>
+        <developer>
+            <name>SAP SE</name>
+            <organization>SAP SE</organization>
+            <organizationUrl>http://www.sap.com</organizationUrl>
+            <email />
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>SAP DEVELOPER LICENSE AGREEMENT</name>
+            <url>https://tools.hana.ondemand.com/developer-license-3_1.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.sap.cloud.instancemanager</groupId>
+            <artifactId>util</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sap.cloud.instancemanager</groupId>
+            <artifactId>client-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.easymock</groupId>
+            <artifactId>easymock</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.30</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>empty-javadoc-jar</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <classifier>javadoc</classifier>
+                            <forceCreation>true</forceCreation>
+                            <includes>
+                                <include>README</include>
+                            </includes>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

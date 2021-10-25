@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sap.cds</groupId>
+  <artifactId>cds4j-core</artifactId>
+  <version>1.21.0</version>
+  <name>cds4j:core</name>
+  <description>CDS4j Core</description>
+  <url>http://www.sap.com</url>
+  <organization>
+    <name>SAP</name>
+  </organization>
+  <licenses>
+    <license>
+      <name>SAP DEVELOPER LICENSE AGREEMENT</name>
+      <url>https://tools.hana.ondemand.com/developer-license-3_1.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>SAP SE</name>
+      <organization>SAP SE</organization>
+      <organizationUrl>http://www.sap.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection></connection>
+    <url></url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>30.1-jre</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.cds</groupId>
+      <artifactId>cds4j-api</artifactId>
+      <version>1.21.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.12.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

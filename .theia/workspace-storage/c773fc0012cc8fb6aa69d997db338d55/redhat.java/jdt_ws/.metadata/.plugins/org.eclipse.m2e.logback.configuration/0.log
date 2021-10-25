@@ -1,0 +1,101 @@
+2021-10-25 04:09:00,756 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-10-25 04:09:03,391 [Worker-1: Initialize Workspace] WARN  o.e.m.c.i.markers.MarkerUtils - Could not find OSGI service for org.eclipse.m2e.core.internal.markers.IEditorMarkerService
+2021-10-25 04:09:03,431 [Worker-1: Initialize Workspace] WARN  o.e.m.c.i.markers.MarkerUtils - Could not find OSGI service for org.eclipse.m2e.core.internal.markers.IEditorMarkerService
+2021-10-25 04:09:03,767 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.sap.cap:bookstore-parent:1.0.0-SNAPSHOT @ /home/user/projects/bookstore/pom.xml.
+2021-10-25 04:09:04,624 [Worker-1: Initialize Workspace] WARN  o.e.m.c.i.l.LifecycleMappingFactory - Ignoring plugin execution mapping org.codehaus.mojo:flatten-maven-plugin:[1.1.0,) defined in maven plugin com.sap.cds:cds-maven-plugin:1.17.0 because it matches other plugins and/or plugin versions
+2021-10-25 04:09:09,317 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sap.cap:bookstore:1.0.0-SNAPSHOT @ /home/user/projects/bookstore/srv/pom.xml.
+2021-10-25 04:09:16,857 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - InstallNodeMojo: Node.js v12.21.0 already installed.
+2021-10-25 04:09:16,887 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - InstallCdsdkMojo: Using directory containing a .cdsrc.json as working directory: /home/user/projects/bookstore
+2021-10-25 04:09:16,887 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - InstallCdsdkMojo: Installing @sap/cds-dk@^3 into: /home/user/projects/bookstore
+2021-10-25 04:09:16,888 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - InstallCdsdkMojo: Using npm from previous installation: /home/user/.m2/repository/com/sap/cds/cds-maven-plugin/cache/unpacked/12.21.0/unpacked-12.21.0-linux-x64.tar.gz/node-v12.21.0-linux-x64/bin/npm
+2021-10-25 04:09:16,923 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - InstallCdsdkMojo: Executing [/home/user/.m2/repository/com/sap/cds/cds-maven-plugin/cache/unpacked/12.21.0/unpacked-12.21.0-linux-x64.tar.gz/node-v12.21.0-linux-x64/bin/npm, install, @sap/cds-dk@^3, --no-save] in working directory /home/user/projects/bookstore
+2021-10-25 04:10:07,902 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - InstallCdsdkMojo: 
+> sqlite3@5.0.0 install /home/user/projects/bookstore/node_modules/@sap/cds-dk/node_modules/sqlite3
+> node-pre-gyp install --fallback-to-build
+
+[sqlite3] Success: "/home/user/projects/bookstore/node_modules/@sap/cds-dk/node_modules/sqlite3/lib/binding/napi-v3-linux-x64/node_sqlite3.node" is installed via remote
+
+> @sap-cloud-sdk/core@1.46.0 postinstall /home/user/projects/bookstore/node_modules/@sap/cds-dk/node_modules/@sap-cloud-sdk/core
+> node usage-analytics.js
+
++ @sap/cds-dk@3.5.4
+added 314 packages from 342 contributors in 47.391s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+
+2021-10-25 04:10:08,187 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - CdsMojo: Using directory containing a .cdsrc.json as working directory: /home/user/projects/bookstore
+2021-10-25 04:10:08,194 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - CdsMojo: Using npx from previous installation: /home/user/.m2/repository/com/sap/cds/cds-maven-plugin/cache/unpacked/12.21.0/unpacked-12.21.0-linux-x64.tar.gz/node-v12.21.0-linux-x64/bin/npx
+2021-10-25 04:10:08,195 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - CdsMojo: Executing [/home/user/.m2/repository/com/sap/cds/cds-maven-plugin/cache/unpacked/12.21.0/unpacked-12.21.0-linux-x64.tar.gz/node-v12.21.0-linux-x64/bin/npx, -c, cds version] in working directory /home/user/projects/bookstore
+2021-10-25 04:10:09,579 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - CdsMojo: Using configured working directory: /home/user/projects/bookstore
+2021-10-25 04:10:09,580 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - CdsMojo: Using npx from previous installation: /home/user/.m2/repository/com/sap/cds/cds-maven-plugin/cache/unpacked/12.21.0/unpacked-12.21.0-linux-x64.tar.gz/node-v12.21.0-linux-x64/bin/npx
+2021-10-25 04:10:09,580 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - CdsMojo: Executing [/home/user/.m2/repository/com/sap/cds/cds-maven-plugin/cache/unpacked/12.21.0/unpacked-12.21.0-linux-x64.tar.gz/node-v12.21.0-linux-x64/bin/npx, -c, cds build] in working directory /home/user/projects/bookstore
+2021-10-25 04:10:10,463 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - CdsMojo: [cds] - [cds] - determining build tasks for project [/home/user/projects/bookstore].
+[cds] - [cds] - the following build tasks will be executed
+[cds] -    {
+     "build": {
+       "target": ".",
+       "tasks": [
+         {"for":"java-cf", "src":"srv", "options":{"model":["db","srv"]}}
+       ]
+     }
+   }
+
+[cds] - building project [/home/user/projects/bookstore], clean [true]
+[cds] - cds [5.5.5], compiler [2.7.0], home [/extbin/npm/globals/lib/node_modules/@sap/cds]
+
+[cds] - no model found, skip build
+[cds] - done >
+[cds] - writing generation log to [/home/user/projects/bookstore/srv/target/cds/build.log]
+
+[cds] - build completed in 18 ms
+2021-10-25 04:10:10,464 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - CdsMojo: Using npx from previous installation: /home/user/.m2/repository/com/sap/cds/cds-maven-plugin/cache/unpacked/12.21.0/unpacked-12.21.0-linux-x64.tar.gz/node-v12.21.0-linux-x64/bin/npx
+2021-10-25 04:10:10,464 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - CdsMojo: Executing [/home/user/.m2/repository/com/sap/cds/cds-maven-plugin/cache/unpacked/12.21.0/unpacked-12.21.0-linux-x64.tar.gz/node-v12.21.0-linux-x64/bin/npx, -c, cds deploy --to sqlite --dry > "/home/user/projects/bookstore/srv/src/main/resources/schema.sql"] in working directory /home/user/projects/bookstore
+2021-10-25 04:10:11,024 [Worker-1: Initialize Workspace] ERROR o.e.m.c.i.embedder.EclipseLogger - CdsMojo: [ERROR] No .cds models found, please specify one as an argument
+
+2021-10-25 04:10:11,085 [Worker-1: Initialize Workspace] ERROR o.e.m.c.i.embedder.EclipseLogger -  Process exited with an error: 1 (Exit value: 1)
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.sap.cds.maven.plugin.util.ProcessExecutor.executeAndGetResult(ProcessExecutor.java:101)
+	at com.sap.cds.maven.plugin.build.AbstractNodejsMojo.execute(AbstractNodejsMojo.java:91)
+	at com.sap.cds.maven.plugin.build.CdsMojo.executeCds(CdsMojo.java:144)
+	at com.sap.cds.maven.plugin.build.CdsMojo.executeViaLifecycle(CdsMojo.java:178)
+	at com.sap.cds.maven.plugin.build.CdsMojo.execute(CdsMojo.java:95)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:332)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$8(MavenImpl.java:1380)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1379)
+	at org.eclipse.m2e.core.project.configurator.MojoExecutionBuildParticipant.build(MojoExecutionBuildParticipant.java:54)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:135)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:113)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$2(ProjectConfigurationManager.java:511)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:505)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:296)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:194)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:113)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:102)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:188)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-10-25 04:10:11,097 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - GenerateMojo: Adding code output directory "/home/user/projects/bookstore/srv/src/gen/java" to compile source directories.
+2021-10-25 04:10:11,098 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - GenerateMojo: No changes in artifact bookstore, skipping execution.
+2021-10-25 04:10:11,127 [Worker-1: Initialize Workspace] WARN  o.e.m.c.i.markers.MarkerUtils - Could not find OSGI service for org.eclipse.m2e.core.internal.markers.IMarkerLocationService
+2021-10-25 04:10:11,478 [Worker-1: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bookstore/src/main/java
+2021-10-25 04:10:11,480 [Worker-1: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bookstore/src/gen/java
+2021-10-25 04:10:11,481 [Worker-1: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bookstore/src/main/resources
+2021-10-25 04:10:11,483 [Worker-1: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bookstore/src/test/java
+2021-10-25 04:10:11,483 [Worker-1: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bookstore/src/test/resources
+2021-10-25 04:10:12,606 [Worker-1: Initialize Workspace] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 2 project(s) in 70 sec

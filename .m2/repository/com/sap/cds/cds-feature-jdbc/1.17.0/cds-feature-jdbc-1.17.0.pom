@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sap.cds</groupId>
+  <artifactId>cds-feature-jdbc</artifactId>
+  <version>1.17.0</version>
+  <name>CDS JDBC persistences feature</name>
+  <description>Consuming JDBC persistences using the CDS4j JDBC runtime</description>
+  <url>https://cap.cloud.sap/docs/java</url>
+  <licenses>
+    <license>
+      <name>SAP DEVELOPER LICENSE AGREEMENT</name>
+      <url>https://tools.hana.ondemand.com/developer-license-3_1.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>SAP SE</name>
+      <organization>SAP SE</organization>
+      <organizationUrl>http://www.sap.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection></connection>
+    <url></url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.sap.cds</groupId>
+      <artifactId>cds-services-api</artifactId>
+      <version>1.17.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.cds</groupId>
+      <artifactId>cds-services-utils</artifactId>
+      <version>1.17.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.cds</groupId>
+      <artifactId>cds4j-runtime</artifactId>
+      <version>1.21.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.cds</groupId>
+      <artifactId>cds4j-tx</artifactId>
+      <version>1.21.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
