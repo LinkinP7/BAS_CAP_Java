@@ -3,3 +3,78 @@
   level: 'info',
   timestamp: '2021-10-25 04:08:53.551'
 }
+{
+  message: '[Error - 6:56:06 AM] Oct 25, 2021, 6:56:06 AM [error response][disconnect]: Cannot read field "terminateDebuggee" because "disconnectArguments" is null\n' +
+    'Cannot read field "terminateDebuggee" because "disconnectArguments" is null\n' +
+    'java.lang.NullPointerException: Cannot read field "terminateDebuggee" because "disconnectArguments" is null\n' +
+    '\tat com.microsoft.java.debug.core.adapter.handler.DisconnectRequestHandler.destroyDebugSession(DisconnectRequestHandler.java:28)\n' +
+    '\tat com.microsoft.java.debug.core.adapter.handler.AbstractDisconnectRequestHandler.handle(AbstractDisconnectRequestHandler.java:44)\n' +
+    '\tat com.microsoft.java.debug.core.adapter.DebugAdapter.lambda$dispatchRequest$0(DebugAdapter.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1106)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2235)\n' +
+    '\tat com.microsoft.java.debug.core.adapter.DebugAdapter.dispatchRequest(DebugAdapter.java:86)\n' +
+    '\tat com.microsoft.java.debug.core.adapter.ProtocolServer.dispatchRequest(ProtocolServer.java:118)\n' +
+    '\tat com.microsoft.java.debug.core.protocol.AbstractProtocolServer.lambda$new$0(AbstractProtocolServer.java:78)\n' +
+    '\tat io.reactivex.internal.observers.LambdaObserver.onNext(LambdaObserver.java:60)\n' +
+    '\tat io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.drainNormal(ObservableObserveOn.java:200)\n' +
+    '\tat io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.run(ObservableObserveOn.java:252)\n' +
+    '\tat io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:61)\n' +
+    '\tat io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:52)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:834)\n',
+  level: 'info',
+  timestamp: '2021-10-25 06:56:06.756'
+}
+{
+  message: '[Error - 7:04:06 AM] Oct 25, 2021, 7:04:06 AM [error response][disconnect]: Cannot read field "terminateDebuggee" because "disconnectArguments" is null\n' +
+    'Cannot read field "terminateDebuggee" because "disconnectArguments" is null\n' +
+    'java.lang.NullPointerException: Cannot read field "terminateDebuggee" because "disconnectArguments" is null\n' +
+    '\tat com.microsoft.java.debug.core.adapter.handler.DisconnectRequestHandler.destroyDebugSession(DisconnectRequestHandler.java:28)\n' +
+    '\tat com.microsoft.java.debug.core.adapter.handler.AbstractDisconnectRequestHandler.handle(AbstractDisconnectRequestHandler.java:44)\n' +
+    '\tat com.microsoft.java.debug.core.adapter.DebugAdapter.lambda$dispatchRequest$0(DebugAdapter.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1106)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2235)\n' +
+    '\tat com.microsoft.java.debug.core.adapter.DebugAdapter.dispatchRequest(DebugAdapter.java:86)\n' +
+    '\tat com.microsoft.java.debug.core.adapter.ProtocolServer.dispatchRequest(ProtocolServer.java:118)\n' +
+    '\tat com.microsoft.java.debug.core.protocol.AbstractProtocolServer.lambda$new$0(AbstractProtocolServer.java:78)\n' +
+    '\tat io.reactivex.internal.observers.LambdaObserver.onNext(LambdaObserver.java:60)\n' +
+    '\tat io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.drainNormal(ObservableObserveOn.java:200)\n' +
+    '\tat io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.run(ObservableObserveOn.java:252)\n' +
+    '\tat io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:61)\n' +
+    '\tat io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:52)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:834)\n',
+  level: 'info',
+  timestamp: '2021-10-25 07:04:06.347'
+}
+{
+  message: '[Error - 7:08:17 AM] Oct 25, 2021, 7:08:17 AM [error response][disconnect]: Cannot read field "terminateDebuggee" because "disconnectArguments" is null\n' +
+    'Cannot read field "terminateDebuggee" because "disconnectArguments" is null\n' +
+    'java.lang.NullPointerException: Cannot read field "terminateDebuggee" because "disconnectArguments" is null\n' +
+    '\tat com.microsoft.java.debug.core.adapter.handler.DisconnectRequestHandler.destroyDebugSession(DisconnectRequestHandler.java:28)\n' +
+    '\tat com.microsoft.java.debug.core.adapter.handler.AbstractDisconnectRequestHandler.handle(AbstractDisconnectRequestHandler.java:44)\n' +
+    '\tat com.microsoft.java.debug.core.adapter.DebugAdapter.lambda$dispatchRequest$0(DebugAdapter.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1106)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2235)\n' +
+    '\tat com.microsoft.java.debug.core.adapter.DebugAdapter.dispatchRequest(DebugAdapter.java:86)\n' +
+    '\tat com.microsoft.java.debug.core.adapter.ProtocolServer.dispatchRequest(ProtocolServer.java:118)\n' +
+    '\tat com.microsoft.java.debug.core.protocol.AbstractProtocolServer.lambda$new$0(AbstractProtocolServer.java:78)\n' +
+    '\tat io.reactivex.internal.observers.LambdaObserver.onNext(LambdaObserver.java:60)\n' +
+    '\tat io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.drainNormal(ObservableObserveOn.java:200)\n' +
+    '\tat io.reactivex.internal.operators.observable.ObservableObserveOn$ObserveOnObserver.run(ObservableObserveOn.java:252)\n' +
+    '\tat io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:61)\n' +
+    '\tat io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:52)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:834)\n',
+  level: 'info',
+  timestamp: '2021-10-25 07:08:17.173'
+}

@@ -35,3 +35,7 @@ netstat -ao |find /i "listening"
 cd
 netstat -ao |find /i "listening"
 netstat -ao |find /i "projects"
+mvn -kill
+cd ~/projects/bookstore
+killall mvn
+mvn spring-boot:run

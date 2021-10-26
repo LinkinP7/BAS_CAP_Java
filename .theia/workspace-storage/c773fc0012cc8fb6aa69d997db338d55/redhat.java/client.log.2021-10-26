@@ -1,0 +1,5 @@
+{
+  message: 'Starting Java server with: /home/user/java11/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -DwatchParentProcess=false -noverify -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=98632K -Xss1M -Xmx437943K -XX:+UseG1GC -XX:+UseStringDeduplication -jar /tmp/vscode-unpacked/redhat.java-0.76.0.vsix/extension/server/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar -configuration /home/user/.theia/globalStorage/redhat.java/0.76.0/config_linux -data /home/user/.theia/workspace-storage/c773fc0012cc8fb6aa69d997db338d55/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2021-10-26 00:05:50.551'
+}
