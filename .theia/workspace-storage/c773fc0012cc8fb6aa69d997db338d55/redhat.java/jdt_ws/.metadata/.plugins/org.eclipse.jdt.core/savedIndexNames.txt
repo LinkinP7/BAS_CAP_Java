@@ -61,8 +61,8 @@ INDEX VERSION 1.131+/home/user/.theia/workspace-storage/c773fc0012cc8fb6aa69d997
 1854306647.index
 2562950952.index
 2963765708.index
-122975522.index
 4192852064.index
+122975522.index
 2886611381.index
 3136864525.index
 3470224355.index
@@ -96,9 +96,9 @@ INDEX VERSION 1.131+/home/user/.theia/workspace-storage/c773fc0012cc8fb6aa69d997
 2728739562.index
 1159295681.index
 914676339.index
+3041427056.index
 2101757921.index
 3855788795.index
-3041427056.index
 678429723.index
 1868216057.index
 421005322.index
@@ -111,8 +111,8 @@ INDEX VERSION 1.131+/home/user/.theia/workspace-storage/c773fc0012cc8fb6aa69d997
 3003774238.index
 4030793915.index
 40606755.index
-71703390.index
 205100577.index
+71703390.index
 3724177757.index
 926367206.index
 1981513317.index
@@ -128,7 +128,7 @@ INDEX VERSION 1.131+/home/user/.theia/workspace-storage/c773fc0012cc8fb6aa69d997
 3351701075.index
 2392021346.index
 1835209508.index
-256334857.index
 3921811408.index
+256334857.index
 2744790608.index
 2834232547.index

@@ -3,3 +3,66 @@
   level: 'info',
   timestamp: '2021-10-26 00:05:50.551'
 }
+{
+  message: 'Starting Java server with: /home/user/java11/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -DwatchParentProcess=false -noverify -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=98632K -Xss1M -Xmx437943K -XX:+UseG1GC -XX:+UseStringDeduplication -jar /tmp/vscode-unpacked/redhat.java-0.76.0.vsix/extension/server/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar -configuration /home/user/.theia/globalStorage/redhat.java/0.76.0/config_linux -data /home/user/.theia/workspace-storage/c773fc0012cc8fb6aa69d997db338d55/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2021-10-26 04:14:05.421'
+}
+{
+  message: 'Starting Java server with: /home/user/java11/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -DwatchParentProcess=false -noverify -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=98632K -Xss1M -Xmx437943K -XX:+UseG1GC -XX:+UseStringDeduplication -jar /tmp/vscode-unpacked/redhat.java-0.76.0.vsix/extension/server/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar -configuration /home/user/.theia/globalStorage/redhat.java/0.76.0/config_linux -data /home/user/.theia/workspace-storage/c773fc0012cc8fb6aa69d997db338d55/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2021-10-26 06:26:55.464'
+}
+{
+  message: '[Error - 6:27:08 AM] Request textDocument/codeAction failed.',
+  level: 'info',
+  timestamp: '2021-10-26 06:27:08.744'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Invalid identifier : >String<\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:645)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:834)\n' +
+    'Caused by: java.lang.IllegalArgumentException: Invalid identifier : >String<\n' +
+    '\tat org.eclipse.jdt.core.dom.SimpleName.setIdentifier(SimpleName.java:247)\n' +
+    '\tat org.eclipse.jdt.core.dom.AST.newSimpleName(AST.java:2700)\n' +
+    '\tat org.eclipse.jdt.core.dom.AST.newName(AST.java:2374)\n' +
+    '\tat org.eclipse.jdt.internal.corext.codemanipulation.tostringgeneration.AbstractToStringGenerator.initialize(AbstractToStringGenerator.java:465)\n' +
+    '\tat org.eclipse.jdt.internal.corext.codemanipulation.tostringgeneration.StringConcatenationGenerator.initialize(StringConcatenationGenerator.java:87)\n' +
+    '\tat org.eclipse.jdt.internal.corext.codemanipulation.tostringgeneration.AbstractToStringGenerator.generateToStringMethod(AbstractToStringGenerator.java:183)\n' +
+    '\tat org.eclipse.jdt.internal.corext.codemanipulation.tostringgeneration.GenerateToStringOperation.run(GenerateToStringOperation.java:102)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.GenerateToStringHandler.generateToString(GenerateToStringHandler.java:142)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.GenerateToStringHandler.generateToString(GenerateToStringHandler.java:119)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:152)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:206)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:646)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)\n' +
+    '\t... 2 more\n',
+  level: 'info',
+  timestamp: '2021-10-26 06:27:08.745'
+}
+{
+  message: 'Starting Java server with: /home/user/java11/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -DwatchParentProcess=false -noverify -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=98632K -Xss1M -Xmx437943K -XX:+UseG1GC -XX:+UseStringDeduplication -jar /tmp/vscode-unpacked/redhat.java-0.76.0.vsix/extension/server/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar -configuration /home/user/.theia/globalStorage/redhat.java/0.76.0/config_linux -data /home/user/.theia/workspace-storage/c773fc0012cc8fb6aa69d997db338d55/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2021-10-26 08:41:14.407'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 85, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-10-26 08:46:06.239'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 88, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-10-26 08:46:15.804'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 93, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-10-26 08:46:45.278'
+}
